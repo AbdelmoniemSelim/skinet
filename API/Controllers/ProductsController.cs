@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using Core.Entities;
+using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -16,13 +17,13 @@ namespace API.Controllers
     public class ProductsController : ControllerBase
     {
         #region Fields
-        private readonly StoreContext _context;
+        private readonly IProductRepository _repo;
         #endregion
 
         #region ctor
-        public ProductsController(StoreContext context)
+        public ProductsController(IProductRepository repo)
         {
-            _context = context;
+            _repo = repo;
         }
         #endregion
 
@@ -30,15 +31,28 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
-            var Products = await _context.Products.ToListAsync();
+            var Products = await _repo.GetProductsAsync();
             return Ok(Products);
         }
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var Products = await _context.Products.FindAsync(id);
+            var Products = await _repo.GetProductByIdAsync(id);
             return Ok(Products);
         }
+
+        [HttpGet("brands")]
+        public async Task<ActionResult<ProductBrand>> GetProductBrands()
+        {
+            return Ok(await _repo.GetProductBrandsAsync());
+        }
+        [HttpGet("types")]
+        public async Task<ActionResult<ProductType>> GetProductTypes()
+        {
+            return Ok(await _repo.GetProductTypesAsync());
+        }
+
+
         #endregion
 
 

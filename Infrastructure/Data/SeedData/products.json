@@ -1,0 +1,146 @@
+[
+    {
+      "Name": "Angular Speedster Board 2000",
+      "Description": "Amazing Angular Speedster Board 2000.",
+      "Price": 200,
+      "PictureUrl": "images/products/sb-ang1.png",
+      "ProductTypeId": 1,
+      "ProductBrandId": 1
+    },
+    {
+      "Name": "Green Angular Board 3000",
+      "Description": "Amazing Green Angular Board 3000.",
+      "Price": 150,
+      "PictureUrl": "images/products/sb-ang2.png",
+      "ProductTypeId": 1,
+      "ProductBrandId": 1
+    },
+    {
+      "Name": "Core Board Speed Rush 3",
+      "Description": "Amazing Core Board Speed Rush.",
+      "Price": 180,
+      "PictureUrl": "images/products/sb-core1.png",
+      "ProductTypeId": 1,
+      "ProductBrandId": 2
+    },
+    {
+      "Name": "Net Core Super Board",
+      "Description": "Amazing Net Core Super Board.",
+      "Price": 300,
+      "PictureUrl": "images/products/sb-core2.png",
+      "ProductTypeId": 1,
+      "ProductBrandId": 2
+    },
+    {
+      "Name": "React Board Super Whizzy Fast",
+      "Description": "Amazing React Board Super Whizzy Fast.",
+      "Price": 250,
+      "PictureUrl": "images/products/sb-react1.png",
+      "ProductTypeId": 1,
+      "ProductBrandId": 4
+    },
+    {
+      "Name": "Typescript Entry Board",
+      "Description": "Amazing Typescript Entry Board.",
+      "Price": 120,
+      "PictureUrl": "images/products/sb-ts1.png",
+      "ProductTypeId": 1,
+      "ProductBrandId": 5
+    },
+    {
+      "Name": "Core Blue Hat",
+      "Description": "Amazing Core Blue Hat.",
+      "Price": 10,
+      "PictureUrl": "images/products/hat-core1.png",
+      "ProductTypeId": 2,
+      "ProductBrandId": 2
+    },
+    {
+      "Name": "Green React Woolen Hat",
+      "Description": "Amazing Green React Woolen Hat.",
+      "Price": 8,
+      "PictureUrl": "images/products/hat-react1.png",
+      "ProductTypeId": 2,
+      "ProductBrandId": 4
+    },
+    {
+      "Name": "Purple React Woolen Hat",
+      "Description": "Amazing Purple React Woolen Hat.",
+      "Price": 15,
+      "PictureUrl": "images/products/hat-react2.png",
+      "ProductTypeId": 2,
+      "ProductBrandId": 4
+    },
+    {
+      "Name": "Blue Code Gloves",
+      "Description": "Amazing Blue Code Gloves.",
+      "Price": 18,
+      "PictureUrl": "images/products/glove-code1.png",
+      "ProductTypeId": 4,
+      "ProductBrandId": 3
+    },
+    {
+      "Name": "Green Code Gloves",
+      "Description": "Amazing Green Code Gloves.",
+      "Price": 15,
+      "PictureUrl": "images/products/glove-code2.png",
+      "ProductTypeId": 4,
+      "ProductBrandId": 3
+    },
+    {
+      "Name": "Purple React Gloves",
+      "Description": "Amazing Purple React Gloves.",
+      "Price": 16,
+      "PictureUrl": "images/products/glove-react1.png",
+      "ProductTypeId": 4,
+      "ProductBrandId": 4
+    },
+    {
+      "Name": "Green React Gloves",
+      "Description": "Amazing Green React Gloves.",
+      "Price": 14,
+      "PictureUrl": "images/products/glove-react2.png",
+      "ProductTypeId": 4,
+      "ProductBrandId": 4
+    },
+    {
+      "Name": "Redis Red Boots",
+      "Description": "Awesome Redis Red Boots.",
+      "Price": 250,
+      "PictureUrl": "images/products/boot-redis1.png",
+      "ProductTypeId": 3,
+      "ProductBrandId": 6
+    },
+    {
+      "Name": "Core Red Boots",
+      "Description": "Amazing Core Red Boots.",
+      "Price": 189.99,
+      "PictureUrl": "images/products/boot-core2.png",
+      "ProductTypeId": 3,
+      "ProductBrandId": 2
+    },
+    {
+      "Name": "Core Purple Boots",
+      "Description": "Amazing Core Purple Boots.",
+      "Price": 199.99,
+      "PictureUrl": "images/products/boot-core1.png",
+      "ProductTypeId": 3,
+      "ProductBrandId": 2
+    },
+    {
+      "Name": "Angular Purple Boots",
+      "Description": "Amazing Angular Purple Boots.",
+      "Price": 150,
+      "PictureUrl": "images/products/boot-ang2.png",
+      "ProductTypeId": 3,
+      "ProductBrandId": 1
+    },
+    {
+      "Name": "Angular Blue Boots",
+      "Description": "Amazing Angular Blue Boots.",
+      "Price": 180,
+      "PictureUrl": "images/products/boot-ang1.png",
+      "ProductTypeId": 3,
+      "ProductBrandId": 1
+    }
+  ]
