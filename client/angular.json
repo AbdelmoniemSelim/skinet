@@ -72,7 +72,8 @@
             "browserTarget": "client:build",
             "sslKey": "ssl/server.key",
             "sslCert": "ssl/server.crt",
-            "ssl": true
+            "ssl": true,
+            "port":4222
           },
           "configurations": {
             "production": {
@@ -133,5 +134,8 @@
       }
     }
   },
-  "defaultProject": "client"
+  "defaultProject": "client",
+  "cli": {
+    "analytics": "1d49fdfb-f9b1-4ebb-889b-e48204f89f11"
+  }
 }

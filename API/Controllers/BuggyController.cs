@@ -31,7 +31,6 @@ namespace API.Controllers
             }
             return Ok();
         }
-
         [HttpGet("servererror")]
         public ActionResult GetServerError()
         {
